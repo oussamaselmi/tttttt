@@ -5122,7 +5122,8 @@
 "cartoucheTags": [],
 "mainSound": null,
 "mainVideo": {
-"youtubeId": "Nx3of1cCeSU"
+"youtubeId": "Nx3of1cCeSU",
+"validityEndAt": "1771801200000"
 },
 "estimatedReadingTime": 196923,
 "canonicalAbsoluteUrl": "https://www.france24.com/fr/moyen-orient/20260319-jean-noël-barrot-attendu-israël-après-visite-liban-france-diplomatie",
