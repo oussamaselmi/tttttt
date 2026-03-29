@@ -1764,7 +1764,7 @@
 "position": 2,
 "settings": {
 "shared": {
-"title": "L'info en continu",
+"title": "L'info en continu - NON",
 "max_content": 5,
 "tracking_code": "live-news"
 },
@@ -1778,6 +1778,7 @@
 "app": {
 "type": "actu-video",
 "dataTestId": "id_actu-video-hp",
+"seemore_enable": false,
 "is_ignored": false
 },
 "bach": {
@@ -1805,8 +1806,248 @@
 }
 },
 {
-"organism": "video",
+"organism": "aside-content--daily-news",
 "position": 3,
+"settings": {
+"shared": {
+"title": "L'info en continu - active guid",
+"max_content": 5,
+"tracking_code": "live-news"
+},
+"fov": {
+"position": "sidebar",
+"show_time": true,
+"see_more_code": "most_live_feed",
+"show_cartouche": true,
+"show_last_modified_at": true
+},
+"app": {
+"type": "actu-video",
+"dataTestId": "id_actu-video-hp",
+"is_ignored": false,
+"seemore_enable": true,
+"seemore_type": "guid",
+"seemore_link": "shared-f24-fr-get-obs-fr"
+},
+"bach": {
+"uuid": "4f29be50-ccd8-11ef-a6c9-005056bf1351",
+"front_section": "essentiel",
+"lastModifiedAt": "2025-02-14T16:36:44+01:00",
+"is_section_title": true
+}
+},
+"content": {
+"@type": "Multimedia",
+"title": "layout area subarea 1773225779",
+"entrepriseId": "WB-MZ610623",
+"mainImage": null,
+"estimatedReadingTime": 1230,
+"canonicalAbsoluteUrl": "",
+"mediaReadingTime": 0,
+"superTags": [],
+"thematicTags": [],
+"meAutomaticList": {
+"source": "product",
+"endpoint": "/products/get_product/shared-f24-fr-get-feed-news-modif",
+"queryString": "limit=5"
+}
+}
+},
+{
+"organism": "aside-content--daily-news",
+"position": 4,
+"settings": {
+"shared": {
+"title": "L'info en continu - layout",
+"max_content": 5,
+"tracking_code": "live-news"
+},
+"fov": {
+"position": "sidebar",
+"show_time": true,
+"see_more_code": "most_live_feed",
+"show_cartouche": true,
+"show_last_modified_at": true
+},
+"app": {
+"type": "actu-video",
+"dataTestId": "id_actu-video-hp",
+"is_ignored": false,
+"seemore_enable": true,
+"seemore_type": "layout",
+"seemore_link": "app-f24-fr-get-layout-ob"
+},
+"bach": {
+"uuid": "4f29be50-ccd8-11ef-a6c9-005056bf1351",
+"front_section": "essentiel",
+"lastModifiedAt": "2025-02-14T16:36:44+01:00",
+"is_section_title": true
+}
+},
+"content": {
+"@type": "Multimedia",
+"title": "layout area subarea 1773225779",
+"entrepriseId": "WB-MZ610623",
+"mainImage": null,
+"estimatedReadingTime": 1230,
+"canonicalAbsoluteUrl": "",
+"mediaReadingTime": 0,
+"superTags": [],
+"thematicTags": [],
+"meAutomaticList": {
+"source": "product",
+"endpoint": "/products/get_product/shared-f24-fr-get-feed-news-modif",
+"queryString": "limit=5"
+}
+}
+},
+{
+"organism": "aside-content--daily-news",
+"position": 5,
+"settings": {
+"shared": {
+"title": "L'info en continu - link externe",
+"max_content": 5,
+"tracking_code": "live-news"
+},
+"fov": {
+"position": "sidebar",
+"show_time": true,
+"see_more_code": "most_live_feed",
+"show_cartouche": true,
+"show_last_modified_at": true
+},
+"app": {
+"type": "actu-video",
+"dataTestId": "id_actu-video-hp",
+"is_ignored": false,
+"seemore_enable": true,
+"seemore_type": "external-url",
+"seemore_link": "https://www.google.com/"
+},
+"bach": {
+"uuid": "4f29be50-ccd8-11ef-a6c9-005056bf1351",
+"front_section": "essentiel",
+"lastModifiedAt": "2025-02-14T16:36:44+01:00",
+"is_section_title": true
+}
+},
+"content": {
+"@type": "Multimedia",
+"title": "layout area subarea 1773225779",
+"entrepriseId": "WB-MZ610623",
+"mainImage": null,
+"estimatedReadingTime": 1230,
+"canonicalAbsoluteUrl": "",
+"mediaReadingTime": 0,
+"superTags": [],
+"thematicTags": [],
+"meAutomaticList": {
+"source": "product",
+"endpoint": "/products/get_product/shared-f24-fr-get-feed-news-modif",
+"queryString": "limit=5"
+}
+}
+},
+{
+"organism": "aside-content--daily-news",
+"position": 6,
+"settings": {
+"shared": {
+"title": "L'info en continu - internal P",
+"max_content": 5,
+"tracking_code": "live-news"
+},
+"fov": {
+"position": "sidebar",
+"show_time": true,
+"see_more_code": "most_live_feed",
+"show_cartouche": true,
+"show_last_modified_at": true
+},
+"app": {
+"type": "actu-video",
+"dataTestId": "id_actu-video-hp",
+"is_ignored": false,
+"seemore_enable": true,
+"seemore_type": "internal-page",
+"seemore_link": "observers"
+},
+"bach": {
+"uuid": "4f29be50-ccd8-11ef-a6c9-005056bf1351",
+"front_section": "essentiel",
+"lastModifiedAt": "2025-02-14T16:36:44+01:00",
+"is_section_title": true
+}
+},
+"content": {
+"@type": "Multimedia",
+"title": "layout area subarea 1773225779",
+"entrepriseId": "WB-MZ610623",
+"mainImage": null,
+"estimatedReadingTime": 1230,
+"canonicalAbsoluteUrl": "",
+"mediaReadingTime": 0,
+"superTags": [],
+"thematicTags": [],
+"meAutomaticList": {
+"source": "product",
+"endpoint": "/products/get_product/shared-f24-fr-get-feed-news-modif",
+"queryString": "limit=5"
+}
+}
+},
+{
+"organism": "aside-content--daily-news",
+"position": 7,
+"settings": {
+"shared": {
+"title": "L'info en continu - deeplink",
+"max_content": 5,
+"tracking_code": "live-news"
+},
+"fov": {
+"position": "sidebar",
+"show_time": true,
+"see_more_code": "most_live_feed",
+"show_cartouche": true,
+"show_last_modified_at": true
+},
+"app": {
+"type": "actu-video",
+"dataTestId": "id_actu-video-hp",
+"is_ignored": false,
+"seemore_enable": true,
+"seemore_type": "deeplink",
+"seemore_link": "f24://fr/replay"
+},
+"bach": {
+"uuid": "4f29be50-ccd8-11ef-a6c9-005056bf1351",
+"front_section": "essentiel",
+"lastModifiedAt": "2025-02-14T16:36:44+01:00",
+"is_section_title": true
+}
+},
+"content": {
+"@type": "Multimedia",
+"title": "layout area subarea 1773225779",
+"entrepriseId": "WB-MZ610623",
+"mainImage": null,
+"estimatedReadingTime": 1230,
+"canonicalAbsoluteUrl": "",
+"mediaReadingTime": 0,
+"superTags": [],
+"thematicTags": [],
+"meAutomaticList": {
+"source": "product",
+"endpoint": "/products/get_product/shared-f24-fr-get-feed-news-modif",
+"queryString": "limit=5"
+}
+}
+},
+{
+"organism": "video",
+"position": 8,
 "settings": {
 "shared": {
 "title": "Le dernier journal",
@@ -1858,7 +2099,7 @@
 },
 {
 "organism": "ad-container",
-"position": 4,
+"position": 9,
 "settings": {
 "shared": null,
 "fov": {
@@ -1878,7 +2119,7 @@
 },
 {
 "organism": "aside-content--current-liveblogs",
-"position": 5,
+"position": 10,
 "settings": {
 "shared": {
 "title": "En cours",
@@ -1922,7 +2163,7 @@
 },
 {
 "organism": "aside-content--sponsors",
-"position": 6,
+"position": 11,
 "settings": {
 "shared": {
 "title": "",
