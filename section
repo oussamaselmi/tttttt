@@ -1807,6 +1807,54 @@
 },
 {
 "organism": "aside-content--daily-news",
+"position": 2,
+"settings": {
+"shared": {
+"title": "L'info en continu - tag tid",
+"max_content": 5,
+"tracking_code": "live-news"
+},
+"fov": {
+"position": "sidebar",
+"show_time": true,
+"see_more_code": "most_live_feed",
+"show_cartouche": true,
+"show_last_modified_at": true
+},
+"app": {
+"type": "actu-video",
+"dataTestId": "id_actu-video-hp",
+"seemore_enable": true,
+"seemore_type": "tag-tid",
+"seemore_link": "102_D64_MZ200755",
+"is_ignored": false
+},
+"bach": {
+"uuid": "4f29be50-ccd8-11ef-a6c9-005056bf1351",
+"front_section": "essentiel",
+"lastModifiedAt": "2025-02-14T16:36:44+01:00",
+"is_section_title": true
+}
+},
+"content": {
+"@type": "Multimedia",
+"title": "layout area subarea 1773225779",
+"entrepriseId": "WB-MZ610623",
+"mainImage": null,
+"estimatedReadingTime": 1230,
+"canonicalAbsoluteUrl": "",
+"mediaReadingTime": 0,
+"superTags": [],
+"thematicTags": [],
+"meAutomaticList": {
+"source": "product",
+"endpoint": "/products/get_product/shared-f24-fr-get-feed-news-modif",
+"queryString": "limit=5"
+}
+}
+},
+{
+"organism": "aside-content--daily-news",
 "position": 3,
 "settings": {
 "shared": {
